@@ -1,0 +1,21 @@
+[2026-05-22 23:26:45] Intento de login:  - Estado: fallido_usuario_no_existe
+[2026-05-22 23:30:11] Intento de login: aaaaaa - Estado: exitoso
+[2026-05-22 23:30:26] Intento de login: aaaaaa - Estado: fallido_contrasena
+[2026-05-22 23:36:50] Intento de login: aaaaaa - Estado: fallido_contrasena
+[2026-05-22 23:48:59] Intento de login: aaaaaa - Estado: fallido_contrasena
+[2026-05-22 23:53:37] Intento de login: aaaaaa - Estado: fallido_contrasena
+[2026-05-22 23:59:19] Intento de login: aaaaaa - Estado: fallido_contrasena
+[2026-05-23 00:00:19] Intento de login: aaaaaa - Estado: exitoso
+[2026-05-23 00:02:43] Intento de login: aaaaaa - Estado: exitoso
+[2026-05-23 00:04:49] Intento de login: aaaaaa - Estado: exitoso
+[2026-05-23 00:05:14] Intento de login: aaaaaa - Estado: fallido_contrasena
+[2026-05-23 00:10:47] Intento de login: aaaaaa - Estado: fallido_contrasena
+[2026-05-23 00:15:45] Intento de login: aaaaaa - Estado: fallido_contrasena
+[2026-05-23 00:18:10] Intento de login: aaaaaa - Estado: fallido_contrasena
+[2026-06-02 23:52:51] Intento de login: aaaaaa - Estado: exitoso
+[2026-06-03 00:07:33] Intento de login: aaaaaa - Estado: exitoso
+[2026-06-03 00:19:23] Intento de login: aaaaaa - Estado: exitoso
+[2026-06-03 02:39:31] Intento de login: aaaaaa - Estado: exitoso
+[2026-06-03 03:07:58] Intento de login: aaaaaa - Estado: exitoso
+[2026-08-19 01:45:37] Intento de login: aaaaaa - Estado: exitoso
+[2026-09-04 01:47:01] Intento de login: asoboas - Estado: exitoso

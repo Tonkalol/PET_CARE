@@ -1,0 +1,198 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.auth-buttons {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+
+.auth-buttons button {
+    background-color: white;
+    color: #4CAF50;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.auth-buttons button:hover {
+    background-color: #f1f1f1;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+mainBox { 
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin: 50px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    margin: 0 -10px; 
+}
+
+.column {
+    flex: 1 1 30%; 
+    margin: 10px; 
+    box-sizing: border-box; 
+    text-align: center; 
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    padding: 40px 20px; 
+    min-height: 300px; 
+    background-color: #4CAF50;
+    border-radius: 8px;
+}
+
+#alimentos img{
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#descripcion {
+    background-color: #f0f8ff;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#descripcion h2 {
+    font-size: 2em;
+    color: #4CAF50;
+}
+
+#descripcion p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: top;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+img {
+
+    width: 60%;
+}
+/* =========================================
+   MODO OSCURO - SECCIÓN PRINCIPAL / ALIMENTOS
+   ========================================= */
+@media (prefers-color-scheme: dark) {
+    
+    /* Fondo general de la página */
+    body {
+        background-color: #121212;
+    }
+
+    /* Cabecera (opcional: un verde ligeramente más oscuro para pantallas oscuras) */
+    header {
+        background-color: #388e3c;
+    }
+
+    /* Botones de autenticación en el menú */
+    .auth-buttons button {
+        background-color: #2d2d2d;
+        color: #81c784; /* Verde suave */
+        border: 1px solid #444;
+    }
+
+    .auth-buttons button:hover {
+        background-color: #3e3e3e;
+    }
+
+    /* Tarjetas de las columnas (las pasamos de verde brillante a un tono más oscuro) */
+    .column {
+        background-color: #1e3d20; /* Verde pino oscuro */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    }
+
+    /* Sección de descripción */
+    #descripcion {
+        background-color: #1e1e1e; /* Fondo gris oscuro */
+    }
+
+    #descripcion h2 {
+        color: #81c784; /* Título en verde suave */
+    }
+
+    #descripcion p {
+        color: #e0e0e0; /* Texto claro */
+    }
+
+    /* Imágenes de alimentos (puedes añadirles un ligero filtro opcional 
+       para que no brillen tanto en la oscuridad) */
+    #alimentos img, img {
+        opacity: 0.9;
+        transition: opacity 0.3s ease;
+    }
+
+    #alimentos img:hover, img:hover {
+        opacity: 1;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #1a1a1a; /* Un gris casi negro */
+    }
+}

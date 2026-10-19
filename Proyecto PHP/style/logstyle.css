@@ -1,0 +1,133 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h3 {
+    text-align: left;
+    color: #555;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.auth-buttons button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.auth-buttons button:hover {
+    background-color: #45a049;
+}
+
+.auth-buttons a {
+    text-decoration: none;
+}
+
+.auth-buttons p {
+    margin: 10px 0;
+}
+
+.auth-buttons a button {
+    background-color: #007bff;
+}
+
+.auth-buttons a button:hover {
+    background-color: #0056b3;
+}
+/* =========================================
+   MODO OSCURO - PANTALLA DE AUTENTICACIÓN
+   ========================================= */
+@media (prefers-color-scheme: dark) {
+    
+    /* Fondo de la pantalla completa */
+    body {
+        background-color: #121212;
+    }
+
+    /* El contenedor principal de Login/Registro */
+    container {
+        background-color: #1e1e1e;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Sombra más oscura */
+    }
+
+    /* Títulos */
+    h1 {
+        color: #ffffff;
+    }
+
+    h3 {
+        color: #bbbbbb; /* Gris claro para los subtítulos */
+    }
+
+    /* Cajas de texto (Usuario, Contraseña) */
+    input[type="text"], 
+    input[type="password"] {
+        background-color: #2d2d2d;
+        color: #ffffff;
+        border: 1px solid #444;
+    }
+
+    /* Enfoque de los inputs al hacer click */
+    input[type="text"]:focus, 
+    input[type="password"]:focus {
+        border-color: #4CAF50; /* Resalta en verde al escribir */
+        outline: none;
+    }
+
+    /* Textos secundarios dentro de la autenticación */
+    .auth-buttons p {
+        color: #aaaaaa;
+    }
+
+    /* Botón Verde (por ejemplo, "Ingresar") */
+    .auth-buttons button {
+        background-color: #388e3c; /* Verde un poco más opaco */
+    }
+
+    .auth-buttons button:hover {
+        background-color: #45a049;
+    }
+
+    /* Botón Azul (por ejemplo, "Registrarse") */
+    .auth-buttons a button {
+        background-color: #1a73e8; /* Azul más agradable para modo oscuro */
+    }
+
+    .auth-buttons a button:hover {
+        background-color: #1557b0;
+    }
+}

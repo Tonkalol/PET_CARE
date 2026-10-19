@@ -1,0 +1,335 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    max-height: 10%;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 50px 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fafafa;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.logo a:hover {
+    color: #0d6440;
+    transform: scale(1.1);
+}
+
+.logo a:active {
+    color: #d84315;
+}
+
+
+i {
+    font-size: 50px;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.Sesion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Sesion span {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.cerrar {
+    margin-top: 5px;
+}
+
+.boton-cerrar {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #ff5722;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.boton-cerrar:hover {
+    background-color: #e64a19;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.auth-buttons {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+
+.auth-buttons button a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.auth-buttons button {
+    background-color: white;
+    color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.auth-buttons button:hover {
+    background-color: #d4d1d1;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+mainBox {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin: 50px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.column1,
+.column2,
+.column3 {
+    flex: 1 1 30%;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 40px 20px;
+    min-height: 300px;
+}
+
+#alimenta .column1 {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("img/Dog_Food1.jpg");
+}
+
+#alimenta .column2 {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("img/Cat_Food1.jpg");
+}
+
+#alimenta .column3 {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("img/Rabbit_Food.jpg");
+}
+
+#servicios .column1 {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("img/seguro.jfif");
+}
+
+#servicios .column2 {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("img/consulta.jfif");
+}
+
+#servicios .column3 {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("img/bano.jfif");
+}
+
+#sobre-nosotros .column1 {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("img/mision.jfif");
+}
+
+#sobre-nosotros .column2 {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("img/valor.jfif");
+}
+
+#sobre-nosotros .column3 {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("img/Valores.jpg");
+}
+
+#descripcion {
+    background-color: #f0f8ff;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#descripcion h2 {
+    font-size: 2em;
+    color: #4CAF50;
+}
+
+#descripcion p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+#alimenta {
+    background-color: #e0ffe0;
+    padding: 20px;
+
+}
+
+#servicios {
+    background-color: #e0f7ff;
+    padding: 20px;
+
+}
+
+#sobre-nosotros {
+    background-color: #ffe0e0;
+    padding: 20px;
+
+}
+
+#askUS {
+    padding: 10px;
+    background-color: #f8efdc;
+}
+
+#askUS input {
+    width: 70%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+#askUS input[name="ask"] {
+    height: 150px;
+}
+
+textarea {
+    resize: vertical;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: left;
+    vertical-align: top;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: top;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #e0e0e0; 
+    }
+    .auth-buttons button {
+        background-color: #333;
+        color: #81c784; 
+    }
+    .auth-buttons button:hover {
+        background-color: #444;
+    }
+    #descripcion {
+        background-color: #1e1e1e;
+    }
+    #descripcion h2 {
+        color: #81c784; 
+    }
+    #descripcion p {
+        color: #e0e0e0;
+    }
+    #alimenta {
+        background-color: #1b2e1b; 
+    }
+    #servicios {
+        background-color: #162630; 
+    }
+    #sobre-nosotros {
+        background-color: #331919; 
+    }
+    #askUS {
+        background-color: #2a2418; 
+    }
+    #askUS input, textarea {
+        background-color: #2d2d2d;
+        color: #ffffff;
+        border: 1px solid #555;
+    }
+}
